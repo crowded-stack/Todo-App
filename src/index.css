@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply bg-yellow-600 px-3 py-1 text-white rounded-sm;
+}
+
+.btn-2 {
+  @apply bg-yellow-600 px-3 py-3 text-white rounded-sm;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.line-through-custom {
+  text-decoration: line-through;
+  text-decoration-thickness: 3px; /* Line thickness */
+}
